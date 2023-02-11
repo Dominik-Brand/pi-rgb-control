@@ -45,7 +45,7 @@ def color_picker(isSet, r, g, b):
     rgb_array=[0,0,0]
     mode = "COLOR"
     if(isSet == 0):
-        colors = askcolor(title="Tkinter Color Chooser")
+        colors = askcolor(title="Color Chooser")
         hexColor = colors[1]
         if colors[0] != None:
             rgb_array = hex2rgb(colors[1])
@@ -64,7 +64,7 @@ def serialCom(mode, r, g, b):
 def main():
     global window
     window = tk.Tk()
-    window.title("Neopixel color changer")
+    window.title("pi-rgb-control")
     window.resizable(width=True, height=True)
     window.geometry("800x480")
     window.configure(background="#111111")
