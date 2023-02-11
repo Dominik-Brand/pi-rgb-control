@@ -11,6 +11,7 @@ import subprocess
 import random
 import time
 from time import sleep, strftime
+
 def time():
     timeStr = strftime('%H:%M')
     lbl_time.config(text = timeStr)

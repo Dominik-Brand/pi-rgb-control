@@ -6,6 +6,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <EEPROM.h>
+
 // Which pin on the Arduino is connected to the NeoPixels?
 #define PIN 2
 enum class MODE
